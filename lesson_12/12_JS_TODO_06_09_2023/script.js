@@ -20,7 +20,6 @@ function addTask() {
     const li = document.createElement("li");
     li.id = "li-" + taskName;
     li.style.margin = "20px";
-    li.style.justifyContent = "space-between"
     const spanId = `span-${taskName}`;
     const doneButtonId = `done-${taskName}`;
     const deleteButtonId = `delete-${taskName}`;
