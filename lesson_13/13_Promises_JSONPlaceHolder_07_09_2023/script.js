@@ -45,16 +45,14 @@ userList.addEventListener("click", (e) => {
       currentUser = user;
       button.style.color = "red";
       userDetails.innerHTML = `
-        <div>
-          <ul style="list-style-type: disclosure-closed">
+          <ul  style="list-style-type: disclosure-closed" class="ms-4">
               <li>username: ${user.username}</li>
               <li>email: ${user.email}</li>
               <li>address: ${user.address.zipcode}, ${user.address.city}, ${user.address.street}, ${user.address.suite}</li>
               <li>phone: ${user.phone}</li>
               <li>website: ${user.website}</li>
               <li>company: ${user.company.name}, ${user.company.catchPhrase}</li>
-          </ul>
-        </div>`;
+          </ul>`;
     } else {
       currentUser = null;
     }
