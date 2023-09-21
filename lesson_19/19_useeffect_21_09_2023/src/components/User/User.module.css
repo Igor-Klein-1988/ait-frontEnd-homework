@@ -1,0 +1,9 @@
+.container {
+  margin-left: 40px;
+  border: 1px solid #cad40d;
+  max-width: 80%;
+}
+
+.heading {
+  color: rgb(209, 42, 172);
+}
