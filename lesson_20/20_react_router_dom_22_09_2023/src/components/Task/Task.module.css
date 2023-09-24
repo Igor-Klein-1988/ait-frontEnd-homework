@@ -1,0 +1,32 @@
+.container {
+  margin-left: 40px;
+  border: 1px solid #cad40d;
+  max-width: 80%;
+}
+
+.taskHeading {
+  color: rgb(209, 42, 172);
+  text-align: center;
+}
+
+.taskInfo {
+  margin: 1rem;
+  padding: 1em;
+  background-color: rgb(45 200 101);
+}
+
+.userInfo {
+  background-color: rgb(24, 241, 230);
+  margin: 1em;
+  padding: 1em;
+}
+
+.spinner {
+  position: fixed;
+  z-index: 999;
+  width: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+}
