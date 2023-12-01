@@ -1,4 +1,4 @@
-const API_KEY = "71445a5986946ddfddd0223bece91aaf";
+const API_KEY = "";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 const CELSIUS_SYMBOL = "\u00B0C";
 
